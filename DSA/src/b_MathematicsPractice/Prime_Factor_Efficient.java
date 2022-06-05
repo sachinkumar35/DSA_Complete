@@ -1,4 +1,4 @@
-package mathematicsPractice;
+package b_MathematicsPractice;
 
 public class Prime_Factor_Efficient {
 

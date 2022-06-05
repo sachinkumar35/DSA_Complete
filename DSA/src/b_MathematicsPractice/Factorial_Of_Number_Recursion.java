@@ -1,4 +1,4 @@
-package mathematicsPractice;
+package b_MathematicsPractice;
 
 public class Factorial_Of_Number_Recursion {
 

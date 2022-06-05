@@ -1,4 +1,4 @@
-package mathematicsPractice;
+package b_MathematicsPractice;
 
 public class All_Divisors_Of_A_Number {
 	

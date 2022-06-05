@@ -1,4 +1,4 @@
-package mathematicsPractice;
+package b_MathematicsPractice;
 
 public class PrimeNumbers_Till_N {
 

@@ -1,4 +1,4 @@
-package mathematicsPractice;
+package b_MathematicsPractice;
 
 public class TrailingZeros_in_Factorial_For_100 {
 
