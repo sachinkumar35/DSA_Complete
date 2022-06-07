@@ -15,7 +15,7 @@ public class PrimeNumber_Efficient_Solution {
 	public static void main(String[] args) {
 		
 		PrimeNumber_Efficient_Solution obj = new PrimeNumber_Efficient_Solution();
-			System.out.println(obj.prime(121));
+			System.out.println(obj.prime(5));
 		
 	}
 }
