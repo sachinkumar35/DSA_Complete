@@ -1,7 +1,6 @@
-package c_Bit_Manipulation;
+package d_RECURSION;
 
-public class Convert_Number_to_Binary {
-	
+public class iii_PracticeProgram {
 	static void fun(int n) {
 		if(n==0) return;
 		fun(n/2);
@@ -11,4 +10,5 @@ public class Convert_Number_to_Binary {
 		fun(7);
 
 	}
+
 }
