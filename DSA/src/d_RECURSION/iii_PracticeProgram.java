@@ -7,7 +7,7 @@ public class iii_PracticeProgram {
 		System.out.println(n%2);
 	}
 	public static void main(String[] args) {
-		fun(7);
+		fun(4);
 
 	}
 

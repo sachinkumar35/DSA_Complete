@@ -11,7 +11,7 @@ public class FibonacciSeries {
 	public static void main(String[] args) {
 		System.out.println(0);
 		System.out.println(1);
-		int n=10;
+		int n=21;
 		fib(0, 1, n-2);
 
 	}
