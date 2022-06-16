@@ -6,8 +6,9 @@ public class Palindrome {
 		if(start>=end) {
 			return true;
 		}
-		
-		return((str.charAt(start)==str.charAt(end)) && palin(str, start+1, end-1));
+		if(str.charAt(start)!=str.charAt(end)) return false;
+		return palin(str, start+1, end-1);
+//		return((str.charAt(start)==str.charAt(end)) && palin(str, start+1, end-1));
 		
 	}
 	public static void main(String[] args) {
