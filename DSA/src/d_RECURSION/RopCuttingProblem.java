@@ -12,7 +12,7 @@ public class RopCuttingProblem {
 	public static void main(String[] args) {
 		int n=23,a=12,b=9,c=11;
 		System.out.println(maxCuts(n, a, b, c));
-
+		
 	}
 
 }
