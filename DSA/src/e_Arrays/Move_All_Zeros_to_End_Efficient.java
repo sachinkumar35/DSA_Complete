@@ -1,17 +1,15 @@
 package e_Arrays;
 
-public class Move_All_Zeros_to_End {
+public class Move_All_Zeros_to_End_Efficient {
 
 	static void moveAllZeros(int arr[]) {
+		int count=0;
 		for(int i=0; i<arr.length; i++) {
-			if(arr[i]==0) {
-				for(int j=i+1; j<arr.length; j++) {
-					if(arr[j]!=0) {
-						int temp = arr[i];
-						arr[i] =arr[j];
-						arr[j]=temp;
-					}
-				}
+			if(arr[i]!=0) {
+				int swap = arr[i];
+				arr[i]=arr[count];
+				arr[count]=swap;
+				count++;
 			}
 		}
 	}
@@ -21,6 +19,7 @@ public class Move_All_Zeros_to_End {
 		for(int i=0; i<arr.length; i++) {
 			System.out.print(arr[i]+" ");
 		}
+
 	}
 
 }
