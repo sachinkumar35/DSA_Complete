@@ -16,7 +16,7 @@ public class Flips_Grops_Minimum {
 	}
 	public static void main(String[] args) {
 //		int arr[] = {1,1,1,0,0,1,0,0,0,0,1};
-		int arr[] = {1,1,1,0,0,1,0,0,0,0,1,0};
+		int arr[] = {0,1,1,1,0,0,1,0,0,0,0,1,0};
 		flips(arr);
 	}
 
