@@ -16,5 +16,4 @@ public class RoapCutting {
 	public static void main(String[] args) {
 		System.out.println(roap(23, 12, 9, 11));
 	}
-
 }
