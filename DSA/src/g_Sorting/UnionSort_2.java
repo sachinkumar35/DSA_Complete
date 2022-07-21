@@ -35,7 +35,7 @@ public class UnionSort_2 {
 				System.out.print(b[j]+" ");
 			j++;
 		}
-			
+			 
 	} 
 	public static void main(String[] args) {
 		int a[] = {3,5,8};
