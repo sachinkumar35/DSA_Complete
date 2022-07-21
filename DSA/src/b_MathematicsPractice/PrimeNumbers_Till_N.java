@@ -12,7 +12,7 @@ public class PrimeNumbers_Till_N {
 			if(m%i==0) return false;
 		}
 		return true;
-	}
+	} 
 	public static void main(String[] args) {
 		
 		PrimeNumbers_Till_N obj = new PrimeNumbers_Till_N();
