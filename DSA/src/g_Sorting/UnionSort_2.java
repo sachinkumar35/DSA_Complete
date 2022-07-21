@@ -36,7 +36,7 @@ public class UnionSort_2 {
 			j++;
 		}
 			
-	}
+	} 
 	public static void main(String[] args) {
 		int a[] = {3,5,8};
 		int b[] = {2,8,9,10,15,15,15,16,20,20};
