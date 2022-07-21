@@ -45,5 +45,4 @@ public class MergeSort {
 		for(int x : arr)
 			System.out.print(x+" ");
 	}
-
 }
