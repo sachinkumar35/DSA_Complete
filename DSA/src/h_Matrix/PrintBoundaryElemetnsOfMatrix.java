@@ -1,7 +1,7 @@
 package h_Matrix;
 
 public class PrintBoundaryElemetnsOfMatrix {
-	static int R=1, C=3;
+	static int R=4, C=4;
 	public static void BoundaryPattern(int arr[][]) {
 		if(R==1)
 			for(int i=0; i<C; i++)
@@ -25,11 +25,11 @@ public class PrintBoundaryElemetnsOfMatrix {
 	}
 
 	public static void main(String[] args) {
-//		int arr[][] =  {{1,2,3,4},
-//						{5,6,7,8},
-//						{9,10,11,12},
-//						{13,14,15,16}};
-		int arr[][] = {{1,2,3}};
+		int arr[][] =  {{1,2,3,4},
+						{5,6,7,8},
+						{9,10,11,12},
+						{13,14,15,16}};
+//		int arr[][] = {{1,2,3}};
 		BoundaryPattern(arr);
 		
 		}
