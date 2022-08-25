@@ -43,8 +43,7 @@ public class ChainingCollision_InsertSearchDelete {
 		System.out.println(obj.search(22));
 		obj.remove(15);
 		System.out.println(obj.search(15));
-		obj.remove(22);
-		System.out.println(obj.search(20));
+//		obj.remove(22);
 		System.out.println(obj.search(15));
 		System.out.println(obj.search(22));
 		System.out.println(obj.search(101));

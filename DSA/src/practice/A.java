@@ -15,7 +15,7 @@ public class A {
 							char y = txt1.charAt(j);
 							if(i != j && y==x) {
 								txt1.deleteCharAt(j);
-								break b;
+								continue a;
 								
 								// line 1
 							}
