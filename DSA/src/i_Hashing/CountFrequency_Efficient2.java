@@ -8,7 +8,6 @@ public class CountFrequency_Efficient2 {
 	static void countFreq(int arr[]) {
 		Map<Integer,Integer> hmp = new HashMap<Integer,Integer>();
 		for(int i=0; i<arr.length; i++) {
-			int key = arr[i];
 			if(hmp.containsKey(arr[i])==true)
 				hmp.put(arr[i], hmp.get(arr[i])+1);
 			else
