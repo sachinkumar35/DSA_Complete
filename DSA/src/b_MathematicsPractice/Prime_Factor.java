@@ -1,16 +1,21 @@
 package b_MathematicsPractice;
 
+
 public class Prime_Factor {
+	PrimeNumber_Efficient_Solution p = new PrimeNumber_Efficient_Solution();
 	void primeFactor(int n) {
 		for(int i=2; i*i<n; i++) {
-			if(n%i==0) {
-				System.out.println(i);
-				n=n/i;
-				i=1;
+			if(p.prime(i)) {
+				int x = i;
+				while(n%x==0)
+				{
+					System.out.print(i+" ");
+					x=x*i;
+				}
 			}
 		}
-		if(n!=0) System.out.println(n);
 	}
+		
 	public static void main(String[] args) {
 		
 		Prime_Factor obj = new Prime_Factor();

@@ -3,7 +3,7 @@ package i_Hashing;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class HashSetProgram {
+public class HashSetProgram{
 
 	public static void main(String[] args) {
 		

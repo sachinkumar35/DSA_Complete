@@ -17,7 +17,7 @@ public class TrailingZeros_In_Factorial {
 	public static void main(String[] args) {
 		TrailingZeros_In_Factorial obj = new TrailingZeros_In_Factorial();
 		
-		System.out.println(obj.countZero(5));
+		System.out.println(obj.countZero(12));
 	}
 	
 }

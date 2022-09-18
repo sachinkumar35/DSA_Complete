@@ -33,7 +33,7 @@ public class Gretest_Comman_Divisor {
 		
 		Gretest_Comman_Divisor obj = new Gretest_Comman_Divisor();
 		
-		System.out.println(obj.gcd(12, 15));
+		System.out.println(obj.gcd(12, 5));
 
 	}
 
